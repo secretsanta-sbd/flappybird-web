@@ -7,7 +7,7 @@ let birdImg, bird = { x: birdX, y: birdY, width: birdWidth, height: birdHeight }
 let pipes = [], pipeWidth = 64, pipeHeight = 512, pipeX = boardWidth;
 let topPipeImg, bottomPipeImg;
 
-let gravity = 0.4, velocityY = 0, velocityX = -2, isGameStarted = false, gameOver = false, score = 0;
+let gravity = 0.2, velocityY = 0, velocityX = -2, isGameStarted = false, gameOver = false, score = 0;
 
 let flapSound = new Audio('./assets/sound/flap.mp3');
 let passPipeSound = new Audio('./assets/sound/pass_pipe.mp3');
